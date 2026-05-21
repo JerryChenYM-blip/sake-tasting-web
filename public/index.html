@@ -25,9 +25,10 @@
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
 <script>
-  // 採購單提交端點（之後由另一個 sub agent 填入 Google Apps Script URL）
+  // 採購單提交端點 — Google Apps Script Web App
+  // 部署文檔：backend/SETUP.md
   // 若為 null，會在 console 印出 payload 供除錯
-  window.SAKE_ORDER_ENDPOINT = null;
+  window.SAKE_ORDER_ENDPOINT = "https://script.google.com/macros/s/AKfycbyd5JExaSx1Pc7wQl8areDQLtDGLbEIbDsfuz39d-nQxybePRy0IRGVMq993pXINWk2/exec";
 </script>
 </head>
 <body>
