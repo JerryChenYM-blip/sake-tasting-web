@@ -1,0 +1,115 @@
+{
+  "venue": "鮨一田",
+  "completedAt": "2026-05-25T19:30:00+08:00",
+  "evaluations": [
+    {
+      "sakeId": 1,
+      "sakeName": "加佐一陽 CASARECCIO",
+      "aromas": ["🍎 蘋果", "🍋 柑橘"],
+      "otherAroma": "玉米鬚",
+      "body": 3,
+      "alcohol": 2,
+      "pairings": ["生食海鮮/壽司"],
+      "otherPairing": "",
+      "comment": "酸度很漂亮，跟我們的握壽司會搭。",
+      "intentScore": 8
+    },
+    {
+      "sakeId": 2,
+      "sakeName": "風之森 露葉風 雄町",
+      "aromas": ["🍐 西洋梨", "🌾 米香"],
+      "otherAroma": "",
+      "body": 4,
+      "alcohol": 3,
+      "pairings": ["燒物/煮物", "天婦羅"],
+      "otherPairing": "",
+      "comment": "厚度足，配燉物加分。",
+      "intentScore": 9
+    },
+    {
+      "sakeId": 3,
+      "sakeName": "新政 No.6 X-type",
+      "aromas": ["🌸 花香"],
+      "otherAroma": "",
+      "body": 2,
+      "alcohol": 2,
+      "pairings": ["前菜/輕食"],
+      "otherPairing": "",
+      "comment": "客單偏年輕女性，他們會喜歡。",
+      "intentScore": 7
+    },
+    {
+      "sakeId": 4,
+      "sakeName": "醸し人九平次 La Maison",
+      "aromas": ["🍐 西洋梨", "🌸 花香"],
+      "otherAroma": "",
+      "body": 3,
+      "alcohol": 3,
+      "pairings": ["生食海鮮/壽司", "燒物/煮物"],
+      "otherPairing": "",
+      "comment": "整體均衡，但價格要拿捏。",
+      "intentScore": 6
+    },
+    {
+      "sakeId": 5,
+      "sakeName": "AKABU NEWBORN",
+      "aromas": ["🍎 蘋果"],
+      "otherAroma": "",
+      "body": 2,
+      "alcohol": 2,
+      "pairings": ["前菜/輕食"],
+      "otherPairing": "",
+      "comment": "輕盈，當作開場酒不錯。",
+      "intentScore": 5
+    },
+    {
+      "sakeId": 6,
+      "sakeName": "鳳凰美田 WINE CELL",
+      "aromas": ["🍇 葡萄", "🌸 花香"],
+      "otherAroma": "",
+      "body": 2,
+      "alcohol": 2,
+      "pairings": ["甜點/水果"],
+      "otherPairing": "",
+      "comment": "獨特，可以講故事。",
+      "intentScore": 7
+    },
+    {
+      "sakeId": 7,
+      "sakeName": "義俠 純米 60%",
+      "aromas": ["🌾 米香"],
+      "otherAroma": "",
+      "body": 4,
+      "alcohol": 4,
+      "pairings": ["燒物/煮物"],
+      "otherPairing": "",
+      "comment": "傳統路線，老客會喜歡。",
+      "intentScore": 6
+    }
+  ],
+  "cart": [
+    { "sakeId": 1, "quantity": 3 },
+    { "sakeId": 2, "quantity": 6 },
+    { "sakeId": 3, "quantity": 2 },
+    { "sakeId": 4, "quantity": 0 },
+    { "sakeId": 5, "quantity": 0 },
+    { "sakeId": 6, "quantity": 2 },
+    { "sakeId": 7, "quantity": 0 }
+  ],
+  "motivations": [
+    "完美契合本店招牌菜",
+    "主理人私心強烈喜歡",
+    "故事性夠強，員工好推薦"
+  ],
+  "recommendStrategies": [
+    "推薦自己(主理人)私心喜歡的",
+    "依客人當天料理搭配"
+  ],
+  "ranking": [
+    "料理搭配性",
+    "主理人偏好",
+    "價格設定",
+    "故事性",
+    "客群接受度"
+  ]
+}

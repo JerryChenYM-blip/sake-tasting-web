@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+
+# Claude Code 個人設定
+.claude/
+
+# 客戶原始資料（不公開）
+info/
+pho/
+
+# 處理過程的中間產物
+build/bottles_raw/
+build/bottles_processed/
+build/_test_*.png
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node / 前端建構（本專案目前不需）
+node_modules/
+dist/
+.next/
+
+# 環境變數
+.env
+.env.local
+*.secret
+
+# 日誌
+*.log
+/tmp/*.log

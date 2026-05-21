@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#FDFBF7">
+<title>清酒試飲會 · Sake Tasting</title>
+
+<!-- Tailwind CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- 字型 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<!-- 主樣式 -->
+<link rel="stylesheet" href="styles.css">
+
+<!-- React 18 + Babel standalone（iOS Safari 友善，無 build step） -->
+<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+<script>
+  // 採購單提交端點（之後由另一個 sub agent 填入 Google Apps Script URL）
+  // 若為 null，會在 console 印出 payload 供除錯
+  window.SAKE_ORDER_ENDPOINT = null;
+</script>
+</head>
+<body>
+
+<div id="root" class="min-h-screen"></div>
+
+<noscript>
+  <div style="padding:24px;text-align:center;font-family:serif">
+    本網站需啟用 JavaScript。
+  </div>
+</noscript>
+
+<!-- 主應用（JSX，由 Babel 即時轉譯） -->
+<script type="text/babel" data-presets="react" src="app.js"></script>
+
+</body>
+</html>
